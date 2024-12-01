@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1733057285">
-  <File Type="VDS-TIMING-PB" Name="imp_even_odd_timing_summary_synth.pb"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="imp_even_odd_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="imp_even_odd.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="imp_even_odd_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="imp_even_odd_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="imp_even_odd_drc_synth.rpt"/>
-  <File Type="RDS-RDS" Name="imp_even_odd.vds"/>
-  <File Type="REPORTS-TCL" Name="imp_even_odd_reports.tcl"/>
-  <File Type="PA-TCL" Name="imp_even_odd.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1733061495">
+  <File Type="VDS-TIMING-PB" Name="imp_digital_lockB_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="imp_digital_lockB_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="imp_digital_lockB.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="imp_digital_lockB_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="imp_digital_lockB_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="imp_digital_lockB_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="imp_digital_lockB.vds"/>
+  <File Type="REPORTS-TCL" Name="imp_digital_lockB_reports.tcl"/>
+  <File Type="PA-TCL" Name="imp_digital_lockB.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/src/sev_seg_dec/counter_n_bit.sv">
@@ -25,7 +25,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/src/odd_even_serial_detect/modules/even_odd.sv">
+    <File Path="$PPRDIR/src/digital_lock/modules/digital_lockB.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -46,8 +46,24 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/src/FPGA_imp/modules/imp_digital_lockB.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/odd_even_serial_detect/modules/even_odd.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/src/FPGA_imp/modules/imp_even_odd.sv">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -94,14 +110,6 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/src/digital_lock/tests/tb_digital_lockC.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/src/digital_lock/modules/digital_lockB.sv">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -159,7 +167,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="imp_even_odd"/>
+      <Option Name="TopModule" Val="imp_digital_lockB"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

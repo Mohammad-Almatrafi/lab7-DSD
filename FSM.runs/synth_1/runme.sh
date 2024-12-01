@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log imp_even_odd.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source imp_even_odd.tcl
+EAStep vivado -log imp_digital_lockB.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source imp_digital_lockB.tcl
