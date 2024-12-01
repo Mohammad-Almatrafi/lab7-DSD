@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-| Date         : Sun Dec  1 16:59:43 2024
+| Date         : Sun Dec  1 18:39:33 2024
 | Host         : rur1k-TP410UAR running 64-bit Ubuntu 24.04.1 LTS
 | Command      : report_methodology -file imp_digital_lockB_methodology_drc_routed.rpt -pb imp_digital_lockB_methodology_drc_routed.pb -rpx imp_digital_lockB_methodology_drc_routed.rpx
 | Design       : imp_digital_lockB
@@ -23,14 +23,14 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 22
+             Violations found: 23
 +-----------+------------------+-------------------------------+------------+
 | Rule      | Severity         | Description                   | Violations |
 +-----------+------------------+-------------------------------+------------+
 | TIMING-17 | Critical Warning | Non-clocked sequential cell   | 3          |
 | LUTAR-1   | Warning          | LUT drives async reset alert  | 2          |
 | TIMING-18 | Warning          | Missing input or output delay | 13         |
-| TIMING-20 | Warning          | Non-clocked latch             | 4          |
+| TIMING-20 | Warning          | Non-clocked latch             | 5          |
 +-----------+------------------+-------------------------------+------------+
 
 2. REPORT DETAILS
@@ -137,10 +137,15 @@ Related violations: <none>
 
 TIMING-20#3 Warning
 Non-clocked latch  
-The latch d/timerRST_reg cannot be properly analyzed as its control pin d/timerRST_reg/G is not reached by a timing clock
+The latch d/FSM_onehot_n_state_reg[2] cannot be properly analyzed as its control pin d/FSM_onehot_n_state_reg[2]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#4 Warning
+Non-clocked latch  
+The latch d/timerRST_reg cannot be properly analyzed as its control pin d/timerRST_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
 Non-clocked latch  
 The latch d/trialRST_reg cannot be properly analyzed as its control pin d/trialRST_reg/G is not reached by a timing clock
 Related violations: <none>

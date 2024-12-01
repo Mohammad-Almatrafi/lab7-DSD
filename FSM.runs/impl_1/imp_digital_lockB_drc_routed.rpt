@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-| Date         : Sun Dec  1 16:59:41 2024
+| Date         : Sun Dec  1 18:39:30 2024
 | Host         : rur1k-TP410UAR running 64-bit Ubuntu 24.04.1 LTS
 | Command      : report_drc -file imp_digital_lockB_drc_routed.rpt -pb imp_digital_lockB_drc_routed.pb -rpx imp_digital_lockB_drc_routed.rpx
 | Design       : imp_digital_lockB
@@ -50,7 +50,7 @@ Related violations: <none>
 
 PDRC-153#1 Warning
 Gated clock check  
-Net d/FSM_onehot_n_state_reg[1]_i_2_n_0 is a gated clock net sourced by a combinational pin d/FSM_onehot_n_state_reg[1]_i_2/O, cell d/FSM_onehot_n_state_reg[1]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net d/n_state__0 is a gated clock net sourced by a combinational pin d/FSM_onehot_n_state_reg[2]_i_2/O, cell d/FSM_onehot_n_state_reg[2]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PLCK-12#1 Warning
