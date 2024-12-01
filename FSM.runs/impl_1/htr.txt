@@ -6,4 +6,4 @@
 # Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 #
 
-vivado -log imp_digital_lockB.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source imp_digital_lockB.tcl -notrace
+vivado -log imp_digital_lockC.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source imp_digital_lockC.tcl -notrace

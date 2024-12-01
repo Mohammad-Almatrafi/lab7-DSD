@@ -1,76 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1733067435">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1733073800">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-DRC" Name="imp_digital_lockB.drc"/>
-  <File Type="BG-BGN" Name="imp_digital_lockB.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="imp_digital_lockB.sysdef"/>
+  <File Type="BG-DRC" Name="imp_digital_lockC.drc"/>
+  <File Type="BG-BGN" Name="imp_digital_lockC.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="imp_digital_lockC.sysdef"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="imp_digital_lockB.ltx"/>
-  <File Type="BITSTR-MMI" Name="imp_digital_lockB.mmi"/>
-  <File Type="BITSTR-BMM" Name="imp_digital_lockB_bd.bmm"/>
-  <File Type="BITSTR-NKY" Name="imp_digital_lockB.nky"/>
-  <File Type="BITSTR-RBT" Name="imp_digital_lockB.rbt"/>
-  <File Type="BITSTR-MSK" Name="imp_digital_lockB.msk"/>
-  <File Type="BG-BIN" Name="imp_digital_lockB.bin"/>
-  <File Type="BG-BIT" Name="imp_digital_lockB.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="imp_digital_lockB_bus_skew_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="imp_digital_lockB_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="imp_digital_lockB_bus_skew_postroute_physopted.rpt"/>
-  <File Type="RDI-RDI" Name="imp_digital_lockB.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="imp_digital_lockB_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="imp_digital_lockB_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="imp_digital_lockB_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="imp_digital_lockB_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="imp_digital_lockB_postroute_physopt.dcp"/>
-  <File Type="ROUTE-BUS-SKEW" Name="imp_digital_lockB_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="imp_digital_lockB_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-SIMILARITY" Name="imp_digital_lockB_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-TIMING-RPX" Name="imp_digital_lockB_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-TIMING-PB" Name="imp_digital_lockB_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="imp_digital_lockB_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="imp_digital_lockB_route_status.pb"/>
-  <File Type="ROUTE-STATUS" Name="imp_digital_lockB_route_status.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="imp_digital_lockB_power_routed.rpx"/>
-  <File Type="ROUTE-PWR-SUM" Name="imp_digital_lockB_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="imp_digital_lockB_power_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="imp_digital_lockB_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="imp_digital_lockB_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="imp_digital_lockB_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="imp_digital_lockB_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="imp_digital_lockB_drc_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="imp_digital_lockB_drc_routed.rpt"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="imp_digital_lockB_routed_bb.dcp"/>
-  <File Type="ROUTE-DCP" Name="imp_digital_lockB_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="imp_digital_lockB_routed_error.dcp"/>
-  <File Type="PHYSOPT-TIMING" Name="imp_digital_lockB_timing_summary_physopted.rpt"/>
-  <File Type="PHYSOPT-DRC" Name="imp_digital_lockB_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="imp_digital_lockB_physopt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="imp_digital_lockB_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="imp_digital_lockB_postplace_pwropt.dcp"/>
-  <File Type="PLACE-TIMING" Name="imp_digital_lockB_timing_summary_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="imp_digital_lockB_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="imp_digital_lockB_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-CTRL" Name="imp_digital_lockB_control_sets_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="imp_digital_lockB_utilization_placed.pb"/>
-  <File Type="PLACE-UTIL" Name="imp_digital_lockB_utilization_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="imp_digital_lockB_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-IO" Name="imp_digital_lockB_io_placed.rpt"/>
-  <File Type="PLACE-DCP" Name="imp_digital_lockB_placed.dcp"/>
-  <File Type="PWROPT-TIMING" Name="imp_digital_lockB_timing_summary_pwropted.rpt"/>
-  <File Type="PWROPT-DRC" Name="imp_digital_lockB_drc_pwropted.rpt"/>
-  <File Type="PWROPT-DCP" Name="imp_digital_lockB_pwropt.dcp"/>
-  <File Type="OPT-TIMING" Name="imp_digital_lockB_timing_summary_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="imp_digital_lockB.hwdef"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="imp_digital_lockB_methodology_drc_opted.rpt"/>
-  <File Type="OPT-DRC" Name="imp_digital_lockB_drc_opted.rpt"/>
-  <File Type="OPT-DCP" Name="imp_digital_lockB_opt.dcp"/>
-  <File Type="INIT-TIMING" Name="imp_digital_lockB_timing_summary_init.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="imp_digital_lockB_bus_skew_routed.rpx"/>
-  <File Type="REPORTS-TCL" Name="imp_digital_lockB_reports.tcl"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="imp_digital_lockB_bus_skew_routed.pb"/>
-  <File Type="PA-TCL" Name="imp_digital_lockB.tcl"/>
+  <File Type="BITSTR-LTX" Name="imp_digital_lockC.ltx"/>
+  <File Type="BITSTR-MMI" Name="imp_digital_lockC.mmi"/>
+  <File Type="BITSTR-BMM" Name="imp_digital_lockC_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="imp_digital_lockC.nky"/>
+  <File Type="BITSTR-RBT" Name="imp_digital_lockC.rbt"/>
+  <File Type="BITSTR-MSK" Name="imp_digital_lockC.msk"/>
+  <File Type="BG-BIN" Name="imp_digital_lockC.bin"/>
+  <File Type="BG-BIT" Name="imp_digital_lockC.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="imp_digital_lockC_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="imp_digital_lockC_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="imp_digital_lockC_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="imp_digital_lockC.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="imp_digital_lockC_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="imp_digital_lockC_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="imp_digital_lockC_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="imp_digital_lockC_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="imp_digital_lockC_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="imp_digital_lockC_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="imp_digital_lockC_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="imp_digital_lockC_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="imp_digital_lockC_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="imp_digital_lockC_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="imp_digital_lockC_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="imp_digital_lockC_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="imp_digital_lockC_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="imp_digital_lockC_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="imp_digital_lockC_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="imp_digital_lockC_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="imp_digital_lockC_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="imp_digital_lockC_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="imp_digital_lockC_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="imp_digital_lockC_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="imp_digital_lockC_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="imp_digital_lockC_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="imp_digital_lockC_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="imp_digital_lockC_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="imp_digital_lockC_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="imp_digital_lockC_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="imp_digital_lockC_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="imp_digital_lockC_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="imp_digital_lockC_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="imp_digital_lockC_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="imp_digital_lockC_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="imp_digital_lockC_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="imp_digital_lockC_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="imp_digital_lockC_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="imp_digital_lockC_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="imp_digital_lockC_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="imp_digital_lockC_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="imp_digital_lockC_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="imp_digital_lockC_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="imp_digital_lockC_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="imp_digital_lockC_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="imp_digital_lockC_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="imp_digital_lockC_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="imp_digital_lockC.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="imp_digital_lockC_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="imp_digital_lockC_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="imp_digital_lockC_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="imp_digital_lockC_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="imp_digital_lockC_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="imp_digital_lockC_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="imp_digital_lockC_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="imp_digital_lockC.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/src/digital_lock/modules/button_debouncer.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/src/sev_seg_dec/counter_n_bit.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -85,7 +92,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/src/digital_lock/modules/digital_lockB.sv">
+    <File Path="$PPRDIR/src/digital_lock/modules/digital_lockC.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -106,8 +113,24 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/src/FPGA_imp/modules/imp_ditgital_lockC.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/src/FPGA_imp/modules/imp_digital_lockB.sv">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/src/digital_lock/modules/digital_lockB.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -177,31 +200,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/src/digital_lock/modules/digital_lockC.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PPRDIR/src/odd_even_serial_detect/tests/tb_even_odd.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/src/FPGA_imp/modules/imp_digital_lockA.sv">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/src/digital_lock/modules/button_debouncer.sv">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -227,7 +226,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="imp_digital_lockB"/>
+      <Option Name="TopModule" Val="imp_digital_lockC"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

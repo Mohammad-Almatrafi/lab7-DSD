@@ -2,11 +2,11 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Dec  1 18:38:06 2024
-# Process ID: 5754
+# Start of session at: Sun Dec  1 20:24:03 2024
+# Process ID: 15426
 # Current directory: /home/rur1k/Vpro/FSM/FSM.runs/impl_1
-# Command line: vivado -log imp_digital_lockB.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source imp_digital_lockB.tcl -notrace
-# Log file: /home/rur1k/Vpro/FSM/FSM.runs/impl_1/imp_digital_lockB.vdi
+# Command line: vivado -log imp_digital_lockC.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source imp_digital_lockC.tcl -notrace
+# Log file: /home/rur1k/Vpro/FSM/FSM.runs/impl_1/imp_digital_lockC.vdi
 # Journal file: /home/rur1k/Vpro/FSM/FSM.runs/impl_1/vivado.jou
 #-----------------------------------------------------------
-source imp_digital_lockB.tcl -notrace
+source imp_digital_lockC.tcl -notrace
