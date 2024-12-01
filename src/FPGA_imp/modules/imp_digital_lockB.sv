@@ -34,6 +34,7 @@ module imp_digital_lockB (
 
   assign open  = BTNC;
   assign close = BTNU;
+  assign pwd   = SW[3:0];
   digital_lockB d (
       .clk  (clk),
       .rst_n(reset_n),

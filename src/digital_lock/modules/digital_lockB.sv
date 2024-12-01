@@ -15,26 +15,29 @@ module digital_lockB (
   localparam C = 2'b00, O = 2'b01, F = 2'b10;
   logic [2:0] count;
   logic [$clog2(500_000_000):0] timer;
-  logic open_d;
 
   always @(p_state, close, open, pwd) begin
     case (p_state)
       C: begin
         n_state  = count > 3 ? F : (open ? ((pwd == 4'hf) ? O : C) : C);
-        timerRST = 'b0;
-        trialRST = 'b1;
+        timerRST = 1'b0;
+        trialRST = 1'b1;
       end
-      O: n_state = close ? C : O;
+      O: begin
+        n_state  = close ? C : O;
+        timerRST = 1'b0;
+        trialRST = 1'b0;
+      end
       F: begin
         n_state  = timer > 500_000_000 ? C : F;
-        timerRST = 'b1;
-        trialRST = 'b0;
+        timerRST = 1'b1;
+        trialRST = 1'b0;
       end
       //   default: n_state = 1'b0;
     endcase
   end
 
-  assign out = (p_state == C) ? 4'hc : (p_state == F ? 4'hf : 4'h0);
+  assign out = (p_state == C) ? 4'hc : ((p_state == F) ? 4'hf : 4'h0);
 
   always @(posedge clk, negedge rst_n) begin
     if (~rst_n) p_state <= C;
